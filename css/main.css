@@ -1,0 +1,41 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  background-color: #e2e2e2;
+
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.polaroid {
+  margin: 0;
+  padding: 10px;
+  width: 250px;
+
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+}
+
+.polaroid > img {
+  display: block;
+  width: 100%;
+}
+
+.polaroid > figcaption {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+}
