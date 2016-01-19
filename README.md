@@ -8,7 +8,8 @@
 **Create interative polaroid images with CSS transitions and transforms.**
 
 - Hovering over each polaroid should rotate it straight and bring it to the front.
-- Some of the HTML & CSS is already complete for you.
+- The HTML is completely done.
+- Some of the CSS is already complete for you.
 
 ---
 
