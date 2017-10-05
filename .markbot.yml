@@ -1,5 +1,5 @@
 repo: 'interactive-polaroids'
-canvasCourse: 'web-dev-4'
+canvasCourse: 'web-dev-3'
 
 inherit:
   - naming-restrict-live
