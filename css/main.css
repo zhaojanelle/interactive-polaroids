@@ -32,12 +32,16 @@ body {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  transform: translatex(-50%);
+  top: 80%;
+  left: 50%;
 }
 
 .polaroid:nth-child(1) {
   transform: rotate(-15deg);
   top: 100px;
-  left: 25%;
+  left: 20%;
   z-index: 1;
 }
 
@@ -48,7 +52,7 @@ body {
 
 .polaroid:nth-child(2) {
   transform: rotate(10deg);
-  top: 120px;
+  top: 130px;
   left: 30%;
   z-index: 3;
 }
@@ -61,7 +65,7 @@ body {
 .polaroid:nth-child(3) {
   transform: rotate(30deg);
   top: 90px;
-  right: 30%;
+  right: 40%;
   z-index: 2;
 }
 
